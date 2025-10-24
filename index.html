@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animatio</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+    animation: laby 2s alternate infinite;
+    }
+    @keyframes laby{
+30%{
+    translate: 100px;
+}
+40%{
+    rotate: 45deg;
+}
+50%{
+    scale: 5;
+}
+    }
+    img:hover{
+        animation-play-state: paused;
+    }
+</style>
+<body>
+  <img src="image/dafe0bca56f7a25e14552d312a56395a2c9eccc1-585x780.avif" alt="">  
+</body>
+</html>
